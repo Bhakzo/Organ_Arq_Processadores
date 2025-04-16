@@ -3,7 +3,7 @@
 #	int b = getChar();   $t1 = b
 #	int c = a + b;	     $t2 = c
 #	printf(("%d", c);
-#}
+#} 
 
 .data
 
