@@ -1,0 +1,25 @@
+
+
+========== Assembly ==========================================================
+
+No terminal 
+    > nasm -f elf32 [nome_arquivo].asm -o [nome_objeto_qualquer].o
+    > ld -m elf_i386 [nome_objeto_qualquer].o -o [nome_executavel_qualquer]
+    > ./[nome_executavel_qualquer]
+
+
+Exemplo, progrma chamado hello.asm
+    > nasm -f elf32 hello.asm -o hello.o
+    > ld -m elf_i386 hello.o -o hello
+    > ./hello
+
+==============================================================================
+
+
+========== C ==================================================================
+
+No terminal
+    > gcc [nome_arquivo].c -o [nome_objeto]
+    > ./[nome_objeto]
+
+Exemplo, programa chamado hello.c
